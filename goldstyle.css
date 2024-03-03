@@ -2,12 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5DC;
+    background-color: rgb(248, 248, 222);
 }
 
 header {
     background-color: #D2B48C;
-    color: #6B7280;
+    color: #5e564e;
     padding: 20px;
     text-align: center;
 }
@@ -26,29 +26,32 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #6B7280;
+    font-size: larger;
+    color: #5e564e;;
 }
 
 main {
     padding: 20px;
     text-align: center;
-    font-size: small;
 }
 
-.button, .meinbutton {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 15px;
-    border: 2px solid #D2B48C;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #D2B48C;
+.button {
+    margin: 35px
 }
+.meinbutton {
+    display: inline-table;
+    margin: 30px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: rgb(131, 111, 1);
+    background-color: #D2B48C;
+    text-decoration: none;
+}
+
 
 .meinbutton:hover {
-    background-color: #A89B8C;
-    border-color: #A89B8C;
+    background-color: gold;
 }
 
 .Information {
@@ -74,3 +77,23 @@ footer {
     margin: 10px auto;
 }
 
+#blinkendeNachricht {
+    color: red; 
+}
+
+.impressdatenschutz {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5e564e;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 45px;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0%;
+  }
+  
+  .goldnrmail {
+    color: #b49a02; 
+  }
+  
