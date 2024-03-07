@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(248, 248, 222);
+    color: #5e564e;
 }
 
 header {
@@ -36,11 +37,11 @@ main {
 }
 
 .button {
-    margin: 100px;
+    margin: 80px;
 }
 .meinbutton {
     display: inline-table;
-    margin: 100px;
+    margin: 80px;
     padding: 25px 25px;
     border-radius: 10px;
     font-size: 16px;
@@ -54,10 +55,6 @@ main {
     background-color: gold;
 }
 
-.Information {
-    color: #6B7280;
-    margin: 20px;
-}
 
 p {
     margin: 10px 0;
@@ -72,7 +69,7 @@ footer {
 
 .bildabschnitt img {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     height: auto;
     margin: 10px auto;
 }
@@ -83,7 +80,6 @@ footer {
 
 .impressdatenschutz {
     font-family: Arial, Helvetica, sans-serif;
-    color: #5e564e;
     border: 2px solid black;
     padding: 20px;
     margin-top: 5px;
@@ -97,3 +93,9 @@ footer {
     color: #b49a02; 
   }
   
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: left;
+
+}
